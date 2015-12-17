@@ -24,6 +24,10 @@
 		<tag>HEAD</tag>
 		<url>https://github.com/fiji/Kuwahara_Filter</url>
 	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/fiji/Kuwahara_Filter/issues</url>
+	</issueManagement>
 	<ciManagement>
 		<system>Jenkins</system>
 		<url>http://jenkins.imagej.net/job/Kuwahara_Filter/</url>
