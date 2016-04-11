@@ -18,6 +18,56 @@
 	<name>plugins/Kuwahara_Filter.jar</name>
 	<description></description>
 
+	<developers>
+		<developer>
+			<id>rasband</id>
+			<name>Wayne Rasband</name>
+			<email>wsr@nih.gov</email>
+			<url>http://imagej.net/Wayne_Rasband</url>
+			<organization>NIH</organization>
+			<organizationUrl>http://rsb.info.nih.gov/</organizationUrl>
+			<roles>
+				<role>founder</role>
+				<role>lead</role>
+				<role>debugger</role>
+				<role>support</role>
+			</roles>
+			<timezone>-5</timezone>
+		</developer>
+		<developer>
+			<id>ctrueden</id>
+			<name>Curtis Rueden</name>
+			<email>ctrueden@wisc.edu</email>
+			<url>http://loci.wisc.edu/people/curtis-rueden</url>
+			<organization>UW-Madison LOCI</organization>
+			<organizationUrl>http://loci.wisc.edu/</organizationUrl>
+			<roles>
+				<role>maintainer</role>
+			</roles>
+			<timezone>-6</timezone>
+		</developer>
+		<developer>
+			<id>hinerm</id>
+			<name>Mark Hiner</name>
+			<email>hiner@wisc.edu</email>
+			<url>http://loci.wisc.edu/people/mark-hiner</url>
+			<organization>UW-Madison LOCI</organization>
+			<organizationUrl>http://loci.wisc.edu/</organizationUrl>
+			<roles>
+				<role>maintainer</role>
+			</roles>
+			<timezone>-6</timezone>
+		</developer>
+	</developers>
+	<contributors>
+		<contributor>
+			<name>Johannes Schindelin</name>
+			<url>http://imagej.net/User:Schindelin</url>
+			<properties><id>dscho</id></properties>
+			<roles><role>founder</role></roles>
+		</contributor>
+	</contributors>
+
 	<scm>
 		<connection>scm:git:git://github.com/fiji/Kuwahara_Filter</connection>
 		<developerConnection>scm:git:git@github.com:fiji/Kuwahara_Filter</developerConnection>
