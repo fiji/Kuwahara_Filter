@@ -1,0 +1,9 @@
+language: java
+jdk:
+- oraclejdk8
+script:
+- mvn -U -Pdeploy-to-imagej clean deploy --settings settings.xml
+env:
+  matrix:
+  - secure: FvhNEOYBe5Kc+HO9AGFUui/d1XIF2Xty7V+qgwjln/TmYfyNhGcynN9FTk1IPrD7PSgebYuSPG4EdEHrAj4F/f43kjJDrzv/fq1R9N56TNkKnPX9Pff0reXOR4LK7EY0Ebn9dgpb8hj2qzWogopup8rC1Rbme11PHON04nbqwaA=
+  - secure: V2PK+fZMwdqyi1ox7iXzP3pNRto6u4UtIo6N1mbOF1I/uw4wIGMbq4BEHFBQ5tNPT93ShYl5FLbpr981T44Acakpsm1TVzzPOJFGOapcolm4edHJU4j90U0JFSrIIrYtBSgsjgJV308d/K5SLH/syyH8UYwSRMWXzM87Q96E9m0=

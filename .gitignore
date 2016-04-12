@@ -5,3 +5,6 @@
 
 # Maven #
 /target/
+
+# Travis #
+travis.log
