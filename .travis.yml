@@ -1,8 +1,12 @@
 language: java
-jdk:
-- oraclejdk8
-script:
-- mvn -U -Pdeploy-to-imagej clean deploy --settings settings.xml
+jdk: oraclejdk8
+branches:
+  only: master
+install: true
+script: ".travis/build.sh"
+after_success: ".travis/notify.sh Travis-Success"
+after_failure: ".travis/notify.sh Travis-Failure"
 env:
-  matrix:
-  - secure: V2PK+fZMwdqyi1ox7iXzP3pNRto6u4UtIo6N1mbOF1I/uw4wIGMbq4BEHFBQ5tNPT93ShYl5FLbpr981T44Acakpsm1TVzzPOJFGOapcolm4edHJU4j90U0JFSrIIrYtBSgsjgJV308d/K5SLH/syyH8UYwSRMWXzM87Q96E9m0=
+  global:
+  - secure: A1fRN+ykGvCRlfkWbL+XJIR3FkBd5eC3uiS5o93rpM2AG+kEGhJgGuPOD6SvMWHtElNYa67TFet25R2xR2l7Mg0I8OLaru/q3SeM+cxmnLHwwECvFN0GNsd4sttxIOlaHN4TJTHcNYDlNAKxOQPkArVTiAvCEgiPc6lnVxDLpMg=
+  - secure: WtmkGc0MDVZB+xu5UD3hQcKAWWNnen0LXXZZE75yu1kalwxBtj5kSvQnGoEjT8L7yanFcixh2WqUomYGhTi9t3N3gi9QUicpz++0L1OcFhdABx5QGzGEZnb970ECTO+1LY4mUvUXmr0cfgiZl9H32YBa07S5mcSIiXlm6cu0lZI=
