@@ -1,5 +1,6 @@
 # Eclipse #
 /.classpath
+/.factorypath
 /.project
 /.settings/
 
@@ -8,3 +9,6 @@
 
 # Travis #
 travis.log
+
+# IntelliJ #
+/.idea/
